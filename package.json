@@ -3,6 +3,7 @@
   "displayName": "pseudo-localization",
   "description": "Creates localize strings of multiple selected text",
   "version": "0.0.1",
+  "publisher": "parasbansal",
   "engines": {
     "vscode": "^1.56.0"
   },
