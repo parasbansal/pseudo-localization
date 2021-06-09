@@ -1,0 +1,49 @@
+{
+  "name": "pseudo-localization",
+  "displayName": "pseudo-localization",
+  "description": "Creates localize strings of selected text",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "icon": "assets/icon.png",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:pseudo-localization.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pseudo-localization.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.56.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parasbansal/pseudo-localization.git"
+  },
+  "homepage": "https://github.com/parasbansal/pseudo-localization/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/parasbansal/pseudo-localization/issues"
+  }
+}
