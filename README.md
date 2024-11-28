@@ -1,6 +1,6 @@
 # Visual Studio Pseudo Localization
 
-This extension let's you convert your string into Pseudolocalized strings for software internationalization testing. The english alphabelts are converted into altered version of themselves but still readable.
+This extension let's you convert your string into Pseudolocalized strings for software internationalization testing. The english alphabets are converted into altered version of themselves but still readable.
 
 ---
 
